@@ -1,0 +1,151 @@
+body {
+    background-color: lightgreen;
+    text-align: center;
+    font-family: sans-serif;
+    min-width: 370px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #304730;
+}
+
+#description {
+    color: #304730;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#main-div {
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#survey-form {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#name, #email, #number {
+    width: 250px;
+    height: 25px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.left {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin: 10px 0;
+}
+.right {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    margin: 10px;
+}
+
+#dropdown-label {
+    vertical-align: middle;
+}
+#dropdown {
+    vertical-align: middle;
+    width: 140px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+#recommend-label {
+    vertical-align: top;
+}
+
+#to-improve-label {
+    vertical-align: top;
+}
+
+#comments-label {
+    vertical-align: top;
+}
+#comments {
+    width: 250px;
+    height: 60px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #496b49;
+    color: white;
+    font-size: 16px;
+    margin: 30px auto;
+}
+
+/* On screens that are 860px or less */
+@media screen and (max-width: 860px) {
+    #main-div {
+        width: 75%;
+    }
+
+    #comments {
+        width: 95%;
+    }
+
+    #name, #email, #number {
+        width: 95%;
+    }
+}
+
+/* On screens that are 690px or less */
+@media screen and (max-width: 690px) {
+    #main-div {
+        width: 80%;
+    }
+
+    .left {
+        width: 85%;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .right {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    #comments {
+        width: 80%;
+    }
+
+    #name, #email, #number {
+        width: 80%;
+    }
+    #name-label-div, #email-label-div, #number-label-div {
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+}
+
+/* On screens that are 560px or less */
+@media screen and (max-width: 560px) {
+    #main-div {
+        width: 85%;
+    }
+
+    #comments {
+        width: 90%;
+    }
+
+    #name, #email, #number {
+        width: 90%;
+    }
+}
