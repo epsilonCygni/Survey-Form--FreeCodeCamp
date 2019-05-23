@@ -2,7 +2,6 @@ body {
     background-color: lightgreen;
     text-align: center;
     font-family: sans-serif;
-    min-width: 370px;
 }
 
 h1 {
@@ -147,5 +146,20 @@ h1 {
 
     #name, #email, #number {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #main-div {
+        width: 95%;
+    }
+
+    #comments {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 330px) {
+    #main-div {
+        width: 100%;
     }
 }
